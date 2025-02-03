@@ -1,0 +1,9 @@
+# config-file
+# TODO: insert new config file for color scheme for wallbash support
+
+theme = catppuccin-mocha
+window-padding-x = 5
+window-padding-y = 5
+cursor-style = bar
+cursor-style-blink = 750
+background-opacity = 0.85

@@ -30,15 +30,15 @@ spotify                                                # proprietary music strea
 spicetify-cli                                          # cli to customize spotify client
 
 # --------------------------------------------------- // Apps
-# neovim                                               # vim based text editor
+neovim                                               # vim based text editor
 
 # --------------------------------------------------- // Shell
 # oh-my-zsh-git|zsh                                      # Optional plugin manager for zsh
 # pokemon-colorscripts-git|zsh                           # display pokemon sprites (optional)
 
 # --------------------------------------------------- // Editor
-# vscodium                                              # Full oss text editor
-# vscodium-marketplace|vscodium                         # VSCodium marketplace
+vscodium                                              # Full oss text editor
+vscodium-marketplace|vscodium                         # VSCodium marketplace
 # code-marketplace|code                                 # Code-Oss marketplace
 # visual-studio-code-bin                                # MS  text editor
 
