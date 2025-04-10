@@ -12,9 +12,12 @@
 Mehrsprachige KEYBINDINGS-Unterstützung
 -->
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](../../KEYBINDINGS.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](../../../KEYBINDINGS.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](KEYBINDINGS.es.md)
-<!-- [![de](https://img.shields.io/badge/lang-de-black.svg)](KEYBINDINGS.de.md) -->
+[![nl](https://img.shields.io/badge/lang-nl-green.svg)](KEYBINDINGS.nl.md)
+[![中文](https://img.shields.io/badge/lang-中文-orange.svg)](KEYBINDINGS.zh.md)
+[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](KEYBINDINGS.fr.md)
+[![ar](https://img.shields.io/badge/lang-AR-orange.svg)](KEYBINDINGS.ar.md)
 
 <div align="center">
 
@@ -30,14 +33,26 @@ Mehrsprachige KEYBINDINGS-Unterstützung
 
 </div><br><br>
 
+<div align="center">
+  <div style="display: flex; flex-wrap: nowrap; justify-content: center;">
+    <img src="../assets/archlinux.png" alt="Arch Linux" style="width: 10%; margin: 10px;"/>
+    <img src="../assets/cachyos.png" alt="CachyOS" style="width: 10%; margin: 10px;"/>
+    <img src="../assets/endeavouros.png" alt="EndeavourOS" style="width: 10%; margin: 10px;"/>
+    <img src="../assets/garuda.png" alt="Garuda" style="width: 10%; margin: 10px;"/>
+    <img src="../assets/nixos.png" alt="NixOS" style="width: 10%; margin: 10px;"/>
+  </div>
+</div>
+
 <!-- # <a id=hyde-tastenkombinationen>HyDE Tastenkombinationen</a> -->
 <!-- # <a id=hyde-tastenkombinationen></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&width=450&lines=HyDE Tastenkombinationen" width="450"/> -->
+
 Hier sind alle HyDE-spezifischen Tastenkombinationen aufgelistet.
 
->[!TIP]
+> [!TIP]
 > <kbd>Super</kbd> + <kbd>/</kbd> zeigt die Tastenkombinationen.
 
 <!-- ## <a id="fenster-verwaltung">Fenster Verwaltung</a> -->
+
 ## <a id="fenster-verwaltung"></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Fenster%20Verwaltung" width="450"/>
 
 | Tasten                                               | Aktion                                        |
@@ -52,7 +67,7 @@ Hier sind alle HyDE-spezifischen Tastenkombinationen aufgelistet.
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>   | Pin auf fokussiertes Fenster umschalten       |
 | <kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>Delete</kbd> | Logout-Menü                                   |
 | <kbd>ALT</kbd> + <kbd>Control_R</kbd>                | waybar umschalten und Konfiguration neu laden |
-| <kbd>SUPER</kbd> + <kbd>J</kbd>                      | teilung umschalten                            |
+| <kbd>SUPER</kbd> + <kbd>J</kbd>                      | Teilung umschalten                            |
 
 ### Gruppen-Navigation
 
@@ -89,6 +104,7 @@ Hier sind alle HyDE-spezifischen Tastenkombinationen aufgelistet.
 | <kbd>SUPER</kbd> + <kbd>X</kbd>         | halten, um die Fenstergröße zu ändern |
 
 <!-- ## <a id=verschiedenes>Verschiedenes</a> -->
+
 ## <a id=verschiedenes></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Verschiedenes" width="450"/>
 
 | Tasten                                                                   | Aktion                                     |
@@ -99,6 +115,7 @@ Hier sind alle HyDE-spezifischen Tastenkombinationen aufgelistet.
 | <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>down</kbd>  | Das aktive Fenster nach unten verschieben  |
 
 <!-- ## <a id=startprogramm>Startprogramm</a> -->
+
 ## <a id=startprogramm></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Startprogramm" width="450"/>
 
 ### Anwendungen
@@ -126,19 +143,20 @@ Hier sind alle HyDE-spezifischen Tastenkombinationen aufgelistet.
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> | Rofi Startprogramm auswählen |
 
 <!-- ## <a id="hardware-steuerungen">Hardware Steuerungen</a> -->
+
 ## <a id="hardware-steuerungen"></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Hardware%20Steuerungen" width="450"/>
 
 ### Audio
 
-| Tasten                                            | Aktion                                  |
-| :------------------------------------------------ | :-------------------------------------- |
-| <kbd>None</kbd> + <kbd>F10</kbd>                  | Stummschaltung des Ausgangs umschalten  |
-| <kbd>None</kbd> + <kbd>XF86AudioMute</kbd>        | Stummschaltung des Ausgangs umschalten  |
-| <kbd>None</kbd> + <kbd>F11</kbd>                  | Lautstärke verringern                   |
-| <kbd>None</kbd> + <kbd>F12</kbd>                  | Lautstärke erhöhen                      |
-| <kbd>None</kbd> + <kbd>XF86AudioMicMute</kbd>     | Stummschaltung des Mikrofons umschalten |
-| <kbd>None</kbd> + <kbd>XF86AudioLowerVolume</kbd> | Lautstärke verringern                   |
-| <kbd>None</kbd> + <kbd>XF86AudioRaiseVolume</kbd> | Lautstärke erhöhen                      |
+| Tasten                                            | Aktion                                   |
+| :------------------------------------------------ | :--------------------------------------- |
+| <kbd>None</kbd> + <kbd>F10</kbd>                  | Stumm-schaltung des Ausgangs umschalten  |
+| <kbd>None</kbd> + <kbd>XF86AudioMute</kbd>        | Stumm-schaltung des Ausgangs umschalten  |
+| <kbd>None</kbd> + <kbd>F11</kbd>                  | Lautstärke verringern                    |
+| <kbd>None</kbd> + <kbd>F12</kbd>                  | Lautstärke erhöhen                       |
+| <kbd>None</kbd> + <kbd>XF86AudioMicMute</kbd>     | Stumm-schaltung des Mikrofons umschalten |
+| <kbd>None</kbd> + <kbd>XF86AudioLowerVolume</kbd> | Lautstärke verringern                    |
+| <kbd>None</kbd> + <kbd>XF86AudioRaiseVolume</kbd> | Lautstärke erhöhen                       |
 
 ### Medien
 
@@ -157,6 +175,7 @@ Hier sind alle HyDE-spezifischen Tastenkombinationen aufgelistet.
 | <kbd>None</kbd> + <kbd>XF86MonBrightnessDown</kbd> | Helligkeit verringern |
 
 <!-- ## <a id=hilfsmittel>Hilfsmittel</a> -->
+
 ## <a id=hilfsmittel></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Hilfsmittel" width="450"/>
 
 | Tasten                                           | Aktion                    |
@@ -175,6 +194,7 @@ Hier sind alle HyDE-spezifischen Tastenkombinationen aufgelistet.
 | <kbd>None</kbd> + <kbd>Print</kbd>                 | alle Monitore drucken                  |
 
 <!-- ## <a id="theming-und-hintergrundbild">Theming und Hintergrundbild</a> -->
+
 ## <a id="theming-und-hintergrundbild"></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=445&lines=Theming%20und%20Hintergrundbild" width="450"/>
 
 | Tasten                                               | Aktion                        |
@@ -184,11 +204,12 @@ Hier sind alle HyDE-spezifischen Tastenkombinationen aufgelistet.
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd>   | ein Hintergrundbild auswählen |
 | <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Up</kbd>    | nächstes waybar-Layout        |
 | <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Down</kbd>  | vorheriges waybar-Layout      |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd>   | wallbash Modus auswähler      |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd>   | wallbash Modus auswählen      |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>   | ein Thema auswählen           |
 
 <!-- ## <a id=Arbeitsbereiche>Arbeitsbereiche</a> -->
-## <a id=Arbeitsbereiche></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Arbeitsbereiche" width="450"/>
+
+## <a id=arbeitsbereiche></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Arbeitsbereiche" width="450"/>
 
 ### Navigation
 
@@ -217,8 +238,8 @@ Hier sind alle HyDE-spezifischen Tastenkombinationen aufgelistet.
 
 #### Spezieller Arbeitsbereich
 
-| Tasten                                                 | Aktion                           |
-| :----------------------------------------------------- | :------------------------------- |
+| Tasten                                             | Aktion                               |
+| :------------------------------------------------- | :----------------------------------- |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>S</kbd> | zum Notizblock verschieben           |
 | <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>S</kbd>   | zum Notizblock verschieben (lautlos) |
 | <kbd>SUPER</kbd> + <kbd>S</kbd>                    | Notizblock umschalten                |
